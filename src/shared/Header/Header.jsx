@@ -4,7 +4,7 @@ import logo from "../../assets/image/logo.png";
 
 const Header = () => {
   return (
-    <header className="bg-[#0D0B45]  text-white absolute top-0 left-0 w-screen z-10">
+    <header className="bg-[#0D0B45]  text-white absolute top-0 left-0 w-full z-10">
       <div className="flex justify-between items-center h-[60px]   max-w-[1440px] mx-auto px-4">
         <div className="logo flex items-center">
           <img src={logo} alt="" />
